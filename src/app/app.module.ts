@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './Pages/login/login.component';
 import { WelcomeComponent } from './Pages/welcome/welcome.component';
 import { ErrorComponent } from './Pages/error/error.component';
+import { SignatureComponent } from './Components/signature/signature.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     WelcomeComponent,
-    ErrorComponent
+    ErrorComponent,
+    SignatureComponent
   ],
   imports: [
     BrowserModule,
