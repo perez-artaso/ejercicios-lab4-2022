@@ -1,0 +1,28 @@
+@media (min-width: 922px) {
+    .myContainer {
+
+        max-width: 25vw;
+        max-height: 50vh;
+        margin: 10vh auto;
+        border: .5px solid grey;
+        padding: 2rem;
+        border-radius: 5px;
+    
+    }
+}
+
+@media (max-width: 922px) {
+
+    .myContainer {
+
+        max-width: 80vw;
+        max-height: 50vh;
+        margin: 5vh auto;
+        border: .5px solid grey;
+        padding: 2rem;
+        border-radius: 5px;
+    
+    }
+
+}
+
